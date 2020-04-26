@@ -515,5 +515,31 @@
             <param name="id">指定id删除</param>
             <returns>返回删除的id</returns>
         </member>
+        <member name="T:StandardAPI.Infrastructure.MyAuthorizeHandler">
+            <summary>
+            HTTP Message handler： 消息拦截器
+            
+            </summary>
+        </member>
+        <member name="M:StandardAPI.Infrastructure.MyAuthorizeHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>
+            实现DelegatingHandler的SendAsync方法
+            </summary>
+            <param name="request">Http请求</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StandardAPI.Infrastructure.MyAuthorizeHandler.RetrieveToken(System.Net.Http.HttpRequestMessage)">
+            <summary>
+            2. 根据需要支持的情况，以几种方式处理request里传入的参数
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StandardAPI.Infrastructure.CurrentUserContext">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>

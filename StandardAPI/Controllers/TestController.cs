@@ -10,6 +10,7 @@ namespace StandardAPI.Controllers
     /// <summary>
     ///  测试API Test Client
     /// </summary>
+    [Authorize]
     public class TestController : ApiController
     {
         /// <summary>
