@@ -481,6 +481,40 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:StandardAPI.Controllers.ExceptionTestController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StandardAPI.Controllers.ExceptionTestController.Get">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns>返回</returns>
+             GET: api/ExceptionTest
+        </member>
+        <member name="M:StandardAPI.Controllers.ExceptionTestController.Get(System.Int32)">
+            <summary>
+            获取指定的id数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:StandardAPI.Controllers.ExceptionTestController.Put(System.Int32,System.String)">
+            <summary>
+            更新指定id的数据
+            </summary>
+            <param name="id">指定id删除</param>
+            <param name="value">参数value</param>
+            <returns></returns>
+        </member>
+        <member name="M:StandardAPI.Controllers.ExceptionTestController.Delete(System.Int32)">
+            <summary>
+            删除指定id的条目
+            </summary>
+            <param name="id">指定id删除</param>
+            <returns>返回删除的id</returns>
+        </member>
         <member name="T:StandardAPI.Controllers.TestController">
             <summary>
              测试API Test Client
@@ -515,6 +549,11 @@
             <param name="id">指定id删除</param>
             <returns>返回删除的id</returns>
         </member>
+        <member name="T:StandardAPI.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:StandardAPI.Infrastructure.MyAuthorizeHandler">
             <summary>
             HTTP Message handler： 消息拦截器
@@ -537,6 +576,11 @@
             <returns></returns>
         </member>
         <member name="T:StandardAPI.Infrastructure.CurrentUserContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:StandardAPI.Infrastructure.WebApiExceptionFilterAttribute">
             <summary>
             
             </summary>
